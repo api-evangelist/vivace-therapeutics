@@ -1,8 +1,23 @@
 aid: vivace-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vivace-therapeutics.png
 name: Vivace Therapeutics
-description: Vivace Therapeutics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Vivace Therapeutics is a clinical-stage, oncology-focused biotechnology company based in the
+  San Francisco Bay Area, developing small-molecule cancer therapeutics that target the Hippo-YAP signaling
+  pathway. Its lead candidate, VT3989, is in clinical trials for mesothelioma and other solid tumors. The
+  company was surfaced as a portfolio company of Canaan Partners and added to the API Evangelist network.
+  As a private therapeutics developer, Vivace publishes clinical-trial, scientific-publication, and corporate
+  content, but exposes no public developer portal, API, SDK, documentation, or code repositories.
 url: https://raw.githubusercontent.com/api-evangelist/vivace-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +27,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Healthcare
+- Life Sciences
+- Clinical Trials
 apis: []
+common:
+- type: Website
+  url: https://vivacetherapeutics.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
